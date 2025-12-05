@@ -1,0 +1,211 @@
+{
+  "fundamental_constants": {
+    "CODATA_year": 2022,
+    "last_updated": "2023-12-20",
+    "source": "CODATA 2022, NIST",
+    
+    "fine_structure_constant": {
+      "value": 7.2973525693e-3,
+      "inverse": 137.035999139,
+      "uncertainty": 1.5e-10,
+      "description": "精细结构常数，表征电磁相互作用的强度"
+    },
+    
+    "electron_mass": {
+      "value_mev": 0.51099895000,
+      "value_kg": 9.1093837015e-31,
+      "uncertainty": 1.5e-8,
+      "description": "电子静质量"
+    },
+    
+    "proton_mass": {
+      "value_mev": 938.27208816,
+      "value_kg": 1.67262192369e-27,
+      "uncertainty": 5.1e-8,
+      "description": "质子静质量"
+    },
+    
+    "neutron_mass": {
+      "value_mev": 939.5654205,
+      "value_kg": 1.67492749804e-27,
+      "uncertainty": 5.1e-8,
+      "description": "中子静质量"
+    },
+    
+    "planck_constant": {
+      "value": 6.62607015e-34,
+      "unit": "J·s",
+      "uncertainty": 0.0,
+      "description": "普朗克常数"
+    },
+    
+    "speed_of_light": {
+      "value": 299792458.0,
+      "unit": "m/s",
+      "uncertainty": 0.0,
+      "description": "真空中光速"
+    },
+    
+    "reduced_planck_constant": {
+      "value_mev_s": 6.582119569e-22,
+      "unit": "MeV·s",
+      "description": "约化普朗克常数 (ħ)"
+    }
+  },
+  
+  "qcd_parameters": {
+    "lambda_qcd": {
+      "value_mev": 332,
+      "range_mev": [200, 350],
+      "description": "QCD尺度参数，表征强相互作用的能标"
+    },
+    
+    "strong_coupling_constant": {
+      "value_at_mz": 0.1179,
+      "scale": "M_Z = 91.1876 GeV",
+      "uncertainty": 0.0010,
+      "description": "强耦合常数在Z玻色子质量处的值"
+    },
+    
+    "gluon_condensate": {
+      "value": "0.33 GeV^4",
+      "description": "胶子凝聚真空期望值 ⟨(α_s/π)G^2⟩"
+    },
+    
+    "chiral_condensate": {
+      "value": "(-272 MeV)^3",
+      "description": "手征凝聚真空期望值 ⟨q̄q⟩"
+    }
+  },
+  
+  "mass_ratios": {
+    "proton_to_electron": {
+      "value": 1836.15267343,
+      "uncertainty": 1.1e-10,
+      "description": "质子与电子质量比"
+    },
+    
+    "muon_to_electron": {
+      "value": 206.7682830,
+      "uncertainty": 4.6e-7,
+      "description": "μ子与电子质量比"
+    },
+    
+    "tau_to_electron": {
+      "value": 3477.23,
+      "uncertainty": 0.29,
+      "description": "τ子与电子质量比"
+    },
+    
+    "w_to_z_boson": {
+      "value": 0.88153,
+      "uncertainty": 0.00017,
+      "description": "W与Z玻色子质量比"
+    }
+  },
+  
+  "alpha_powers": {
+    "alpha_power_negative_half": {
+      "value": 11.7062355,
+      "formula": "α^{-1/2}",
+      "description": "α的-1/2次幂"
+    },
+    
+    "alpha_power_negative_one": {
+      "value": 137.035999139,
+      "formula": "α^{-1}",
+      "description": "α的-1次幂"
+    },
+    
+    "alpha_power_negative_two_thirds": {
+      "value": 26.1576,
+      "formula": "α^{-2/3}",
+      "description": "α的-2/3次幂"
+    },
+    
+    "alpha_squared": {
+      "value": 5.325136e-5,
+      "formula": "α^2",
+      "description": "α的平方"
+    },
+    
+    "alpha_cubed": {
+      "value": 3.88578e-7,
+      "formula": "α^3",
+      "description": "α的立方"
+    }
+  },
+  
+  "formula_constants": {
+    "term1_coefficient": 3.0,
+    "term2_coefficient": 12.566370614359172,
+    "term2_coefficient_note": "等于4π",
+    "term3_coefficient": 3.0,
+    
+    "error_model_parameters": {
+      "delta_s": 0.00015,
+      "epsilon_g": 0.00012,
+      "delta_em": 0.83
+    },
+    
+    "predicted_particles": {
+      "weaklet_mass_mev": 22.0,
+      "weaklet_mass_ratio_to_electron": 43.05,
+      "stronglet_mass_mev": 16.7,
+      "stronglet_mass_ratio_to_electron": 32.68
+    }
+  },
+  
+  "experimental_limits": {
+    "proton_decay_lifetime": {
+      "lower_limit": 1.6e34,
+      "unit": "years",
+      "experiment": "Super-Kamiokande",
+      "description": "质子衰变寿命下限"
+    },
+    
+    "alpha_time_variation": {
+      "limit_per_year": 1.6e-17,
+      "method": "Oklo天然核反应堆",
+      "description": "α随时间变化率上限"
+    },
+    
+    "proton_charge_radius": {
+      "value": 0.8414,
+      "unit": "fm",
+      "uncertainty": 0.0019,
+      "experiment": "μ子氢光谱",
+      "description": "质子电荷半径"
+    }
+  },
+  
+  "calculated_values": {
+    "proton_mass_formula": {
+      "term1_value": 35.118706,
+      "term2_value": 1721.039,
+      "term3_value": 78.4728,
+      "total_mass_ratio": 1834.6305,
+      "experimental_mass_ratio": 1836.1527,
+      "absolute_error": -1.5222,
+      "relative_error_percent": -0.0829,
+      "relative_error_ppm": -829
+    },
+    
+    "mass_percentages": {
+      "term1_percentage": 1.91,
+      "term2_percentage": 93.73,
+      "term3_percentage": 4.27,
+      "intrinsic_mass_mev": 35.1,
+      "dynamic_condensation_mev": 879.6,
+      "weak_correction_mev": 40.1
+    }
+  },
+  
+  "metadata": {
+    "database_version": "1.0.0",
+    "created_date": "2024-05-20",
+    "author": "质子质量-阿尔法关系项目",
+    "license": "MIT",
+    "purpose": "为质量起源理论研究提供标准常数参考"
+  }
+}
